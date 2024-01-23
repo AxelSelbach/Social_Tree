@@ -6,16 +6,27 @@ export default {
       colors: {
         primary: {
           100: '#000000',
-          200: '#6082B6',
+          200: '#36454F',
+          300: '#FFF',
+          400: '#bdc3c7',
+          500: '#722F37',
         },
       },
       backgroundImage: {
         'hero-pattern': "url('./assets/desktop_bg.jpg')",
       },
       boxShadow: {
-        'low-shadow': '4px 8px #4299e1',
+        'blue-shadow': '4px 8px #4299e1',
+        'wine-shadow': '4px 8px #722F37',
+      },
+      fontFamily: {
+        Nunito: ['Nunito', 'sans-serif'],
+      },
+      fontWeight: {
+        Nunito: ['400', '500'],
       },
     },
   },
   plugins: [],
+  darkMode: 'class',
 }
