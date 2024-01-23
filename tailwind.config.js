@@ -1,24 +1,21 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
       colors: {
         primary: {
-          '100': '#000000'
-        }
+          100: '#000000',
+          200: '#6082B6',
+        },
       },
       backgroundImage: {
-        'hero-pattern': "url('./assets/desktop_bg.jpg')"
+        'hero-pattern': "url('./assets/desktop_bg.jpg')",
       },
       boxShadow: {
-        'low-shadow': '2px 4px 8px #4299e1'
-      }
+        'low-shadow': '4px 8px #4299e1',
+      },
     },
   },
   plugins: [],
 }
-
