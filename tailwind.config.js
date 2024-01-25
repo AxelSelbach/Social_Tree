@@ -25,6 +25,30 @@ export default {
       fontWeight: {
         Nunito: ['400', '500'],
       },
+      keyframes: {
+        topDown: {
+          '0%': { opacity: 0, transform: 'translateY(-30px)' },
+          '100%': { opacity: 1, transform: 'translateY(0)' },
+        },
+        bottomUp: {
+          '0%': { opacity: 0, transform: 'translateY(30px)' },
+          '100%': { opacity: 1, transform: 'translateY(0)' },
+        },
+        leftRigth: {
+          '0%': { opacity: 0, transform: 'translateX(30px)' },
+          '100%': { opacity: 1, transform: 'translateX(0)' },
+        },
+        rightLeft: {
+          '0%': { opacity: 0, transform: 'translateX(-30px)' },
+          '100%': { opacity: 1, transform: 'translateX(0)' },
+        },
+      },
+      animation: {
+        topDown: 'topDown 700ms 200ms backwards',
+        rightLeft: 'rightLeft 700ms 400ms backwards',
+        leftRigth: 'leftRigth 700ms 600ms backwards',
+        bottomUp: 'bottomUp 700ms 800ms backwards',
+      },
     },
   },
   plugins: [],
