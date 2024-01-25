@@ -27,19 +27,19 @@ export default {
       },
       keyframes: {
         topDown: {
-          '0%': { opacity: 0, transform: 'translateY(-30px)' },
+          '0%': { opacity: 0, transform: 'translateY(-120px)' },
           '100%': { opacity: 1, transform: 'translateY(0)' },
         },
         bottomUp: {
-          '0%': { opacity: 0, transform: 'translateY(30px)' },
+          '0%': { opacity: 0, transform: 'translateY(120px)' },
           '100%': { opacity: 1, transform: 'translateY(0)' },
         },
         leftRigth: {
-          '0%': { opacity: 0, transform: 'translateX(30px)' },
+          '0%': { opacity: 0, transform: 'translateX(120px)' },
           '100%': { opacity: 1, transform: 'translateX(0)' },
         },
         rightLeft: {
-          '0%': { opacity: 0, transform: 'translateX(-30px)' },
+          '0%': { opacity: 0, transform: 'translateX(-120px)' },
           '100%': { opacity: 1, transform: 'translateX(0)' },
         },
       },
