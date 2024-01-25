@@ -33,13 +33,8 @@ export function App() {
               })}
             </ul>
             <footer className="animate-bottomUp w-auto">
-              <p className="flex flex-row w-full gap-1">
-                Feito com muita dedicação por
-                <strong className="dark:hover:text-sky-600 hover:text-primary-500 text-xs sm:text-base font-Nunito font-bold hover:cursor-default transition-colors duration-300">
-                  Áxel
-                </strong>
-                {darkMode && <span>💙</span>}
-                {!darkMode && <span>❤</span>}
+              <p className="font-Nunito">
+                Feito com muita dedicação por Áxel {darkMode ? '💙' : '❤'}
               </p>
             </footer>
           </main>
