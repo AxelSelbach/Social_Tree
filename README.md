@@ -8,7 +8,7 @@ Esta é uma aplicação que realizei mais como um desafio, visto que nunca mexi 
 
 ## ⚙ Tecnologias
 
-Meu Social Links foi desenvolvido usando as seguintes tecnologias:
+Meu Social Links foi desenvolvido usando pnpm como gerenciador de pacotes e as seguintes tecnologias:
 
 - ReactJS
 - TailwindCSS
