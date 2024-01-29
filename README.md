@@ -10,6 +10,6 @@ Esta é uma aplicação que realizei mais como um desafio, visto que nunca mexi 
 
 Meu Social Links foi desenvolvido usando as seguintes tecnologias:
 
-- RecatJS
+- ReactJS
 - TailwindCSS
 - TypeScript
