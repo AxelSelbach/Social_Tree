@@ -12,9 +12,6 @@ export default {
           500: '#722F37',
         },
       },
-      backgroundImage: {
-        'hero-pattern': "url('./assets/desktop_bg.jpg')",
-      },
       boxShadow: {
         'blue-shadow': '4px 8px #4299e1',
         'wine-shadow': '4px 8px #722F37',
